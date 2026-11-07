@@ -70,6 +70,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{o
 .faq p{margin:14px 0 0;font-size:17px;line-height:1.9;color:#A6A6AF;max-width:760px}
 .flink{display:block;font-size:15px;color:#9B9BA5;padding:6px 0}
 .flink:hover{color:#fff}
+.hero-bg{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 88%,transparent 100%);mask-image:linear-gradient(90deg,#000 0,#000 88%,transparent 100%)}
+@media (min-width:1441px){.hero-bg{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 88%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 88%,transparent 100%)}}
 @media (max-width:1000px){
   .g3{grid-template-columns:repeat(2,minmax(0,1fr))!important}
   .trust{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -222,7 +224,7 @@ html,body{margin:0;background:#09090B;color:#F4F4F2;--accent:#FF5A1F;font-family
     </a>
   </div>
 </header><section class="hero-d" style="position:relative;min-height:760px;border-bottom:1px solid #1D1D22;overflow:hidden;background:#07070A">
-  <div class="hero-bg" style="position:absolute;inset:0;background-image:var(--i-hero);background-size:cover;background-position:left center"></div>
+  <div class="hero-bg" style="position:absolute;top:0;bottom:0;left:0;right:0;margin:0 auto;max-width:1440px;background-image:var(--i-hero);background-size:auto 100%;background-position:left center;background-repeat:no-repeat"></div>
   <div class="hero-grad" style="position:absolute;inset:0;background:linear-gradient(270deg,rgba(9,9,11,.97) 0%,rgba(9,9,11,.9) 30%,rgba(9,9,11,.35) 52%,rgba(9,9,11,0) 70%)"></div>
   <div class="hero-bot" style="position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(180deg,rgba(9,9,11,0),#09090B)"></div>
   <div class="wrap hero-wrap" style="position:relative;display:flex;align-items:center;min-height:760px;padding-bottom:70px">
